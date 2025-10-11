@@ -1,0 +1,21 @@
+# Unreal Engine Git Ignore
+
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userprefs
+*.sln
+*.opensdf
+*.sdf
+*.db
+*.opendb
+*.log
+*.vs/
+*.tmp
+*.bak
+*.local
