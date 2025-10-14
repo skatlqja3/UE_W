@@ -11,8 +11,16 @@ public class UE_W : ModuleRules
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput" });
 
         // ★ SPUD 추가 (cpp에서만 쓰면 Private에 넣는 게 권장)
+        // C++에서 CommonUI 타입을 include/사용할 때 필요
         PrivateDependencyModuleNames.AddRange(new string[] {
-            "SPUD"
+        "SPUD",
+        "CommonUI",
+        "CommonInput",
+        "EnhancedInput",
+        "UMG",
+        "Slate",
+        "SlateCore"
         });
+
     }
 }
